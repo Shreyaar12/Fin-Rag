@@ -44,13 +44,13 @@ To get started with FinRAG, please follow these installation steps:
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/yourusername/FinRAG.git
+   git clone https://github.com/Shreyaar12/Fin-Rag/
    ```
 
 2. Navigate to the cloned directory and install the required dependencies:
 
    ```
-   cd FinRAG
+   cd Fin-RAG
    pip install -r requirements.txt
    ```
 
