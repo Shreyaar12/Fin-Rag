@@ -1,24 +1,46 @@
+
 import matplotlib.pyplot as plt
 
-# Data for the plots
-years = ['2022', '2023']
-debt_to_equity_ratios = [42.6, 42.0]  # Percentages from the image
-debt_ratios = [29.9, 29.6]  # Percentages from the image
+def plot_financial_ratios():
+    # Ask the user for the type of ratio they want to plot
+    ratio_type = input("Enter the type of ratio to plot (solvency, liquidity, efficiency, profitability): ").lower()
+    
+    # Initialize variables
+    years = []
+    ratios = []
+    label = ""
+    
+    # Collect data based on user input
+    if ratio_type == 'solvency':
+        years = input("Enter the years separated by comma (e.g., 2022,2023): ").split(',')
+        ratios = list(map(float, input("Enter the solvency ratios for these years separated by comma (e.g., 42.6,42.0): ").split(',')))
+        label = 'Solvency Ratio (%)'
+    elif ratio_type == 'liquidity':
+        years = input("Enter the years separated by comma (e.g., 2022,2023): ").split(',')
+        ratios = list(map(float, input("Enter the liquidity ratios for these years separated by comma (e.g., 1.5,1.6): ").split(',')))
+        label = 'Liquidity Ratio'
+    elif ratio_type == 'efficiency':
+        years = input("Enter the years separated by comma (e.g., 2022,2023): ").split(',')
+        ratios = list(map(float, input("Enter the efficiency ratios for these years separated by comma (e.g., 88,90): ").split(',')))
+        label = 'Efficiency Ratio (%)'
+    elif ratio_type == 'profitability':
+        years = input("Enter the years separated by comma (e.g., 2022,2023): ").split(',')
+        ratios = list(map(float, input("Enter the profitability ratios for these years separated by comma (e.g., 15,16): ").split(',')))
+        label = 'Profitability Ratio (%)'
+    else:
+        print("Invalid ratio type entered.")
+        return
 
-# Creating the figure and a set of subplots
-fig, ax = plt.subplots()
+    # Plotting the data
+    fig, ax = plt.subplots()
+    ax.bar(years, ratios, color='skyblue')
+    ax.set_xlabel('Year')
+    ax.set_ylabel('Ratio Value')
+    ax.set_title(f'{label} for Google')
+    ax.set_xticks(years)
+    ax.set_xticklabels(years)
 
-# Adding the Debt to Equity Ratio bars
-ax.bar([x for x in years], debt_to_equity_ratios, width=0.4, label='Debt to Equity Ratio (%)', align='center')
+    plt.show()
 
-# Adding the Debt Ratio bars
-ax.bar([x for x in years], debt_ratios, width=0.4, label='Debt Ratio (%)', align='edge')
-
-# Adding titles and labels
-ax.set_xlabel('Year')
-ax.set_ylabel('Percentage')
-ax.set_title('Solvency Ratios for Google (2022 & 2023)')
-ax.legend()
-
-# Display the plot
-plt.show()
+# Run the function
+plot_financial_ratios()
