@@ -1,10 +1,10 @@
 # SEC Filings Chat App
 
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
-  <img src="./docs/Screenshot(707).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
-  <img src="./docs/Screenshot(713).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
-  <img src="./docs/Screenshot(714).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
-  <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
+  <img src="./docs/Screenshot(707).png" alt="SEC Filing app demo" style="width: 80%; margin: 10px;">
+  <img src="./docs/Screenshot(713).png" alt="SEC Filing app demo" style="width: 40%; margin: 10px;">
+  <img src="./docs/Screenshot(714).png" alt="SEC Filing app demo" style="width: 40%; margin: 10px;">
+  <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 10%; margin: 10px;">
 </div>
 CHECKOUT THE DOCS FOLDER FOR ALL IMAGE DEMOS
 
