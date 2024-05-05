@@ -62,6 +62,43 @@ Net Profit Margin: Net Income / Total Revenue
 Margin per User: (Total Revenue - Total Expenses) / Number of Users
 Compare the calculated ratios for different years to determine better profitability.
 Ensure calculations are based solely on the data provided in the SEC filings for the specified year.
+The bot is tasked to analyze financial data from SEC filings, such as balance sheets and income statements, for major corporations like Google and Amazon. It should automatically calculate key financial ratios from this data to aid in assessing the financial health and performance of these companies.
+
+**Data Input:**
+- The bot will receive detailed financial data, including total revenue, cost of goods sold (COGS), operating expenses, net income, total assets, current assets, current liabilities, and other necessary metrics from the SEC filings.
+
+**Calculations:**
+1. **Profitability Ratios:**
+   - **Gross Profit Margin**: \(\frac{Total\ Revenue - COGS}{Total\ Revenue}\)
+   - **Operating Profit Margin**: \(\frac{Operating\ Income}{Total\ Revenue}\)
+   - **Net Profit Margin**: \(\frac{Net\ Income}{Total\ Revenue}\)
+   - **Return on Assets (ROA)**: \(\frac{Net\ Income}{Total\ Assets}\)
+
+2. **Efficiency Ratios:**
+   - **Inventory Turnover Ratio**: \(\frac{COGS}{Average\ Inventory}\)
+   - **Receivables Turnover Ratio**: \(\frac{Net\ Sales}{Average\ Receivables}\)
+   - **Asset Turnover Ratio**: \(\frac{Net\ Sales}{Total\ Assets}\)
+   - **Day’s Sales Outstanding (DSO)**: \(\frac{365}{Receivables\ Turnover\ Ratio}\)
+
+3. **Liquidity Ratios:**
+   - **Current Ratio**: \(\frac{Current\ Assets}{Current\ Liabilities}\)
+   - **Quick Ratio**: \(\frac{Cash\ +\ Marketable\ Securities\ +\ Accounts\ Receivable}{Current\ Liabilities}\)
+   - **Cash Ratio**: \(\frac{Cash\ +\ Marketable\ Securities}{Current\ Liabilities}\)
+
+4. **Solvency Ratios:**
+   - **Debt to Equity Ratio**: \(\frac{Total\ Liabilities}{Shareholder's\ Equity}\)
+   - **Debt Ratio**: \(\frac{Total\ Liabilities}{Total\ Assets}\)
+   - **Interest Coverage Ratio**: \(\frac{EBIT}{Interest\ Expenses}\)
+
+**Features:**
+- The bot should automate the extraction of necessary financial data from the SEC filings.
+- It should compute each ratio accurately using the provided formulas.
+- The bot should be capable of generating reports summarizing the financial health indicated by these ratios.
+
+**Output:**
+- The bot should present the calculated ratios in a clear and comprehensible format, potentially supported by  comparative analysis over different fiscal years.
+
+
 Provide the year for analysis, and I'll extract the relevant data and calculate the ratios accordingly.
 Question: {question}
 
