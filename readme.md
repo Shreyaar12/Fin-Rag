@@ -1,11 +1,18 @@
 # SEC Filings Chat App
 
 <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+<h3>The overall view of the app</h3>
   <img src="./docs/Screenshot(707).png" alt="SEC Filing app demo" style="width: 80%; margin: 10px;">
+ <h3>Few answers generated</h3> 
   <img src="./docs/Screenshot(713).png" alt="SEC Filing app demo" style="width: 40%; margin: 10px;">
   <img src="./docs/Screenshot(714).png" alt="SEC Filing app demo" style="width: 40%; margin: 10px;">
+    <h3>Upload all filings documents</h3>
   <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 10%; margin: 10px;">
+  <h3>Visuals generated from the processed data</h3>
     <img src="./docs/visual.PNG" alt="SEC Filing app demo" style="width: 50%; margin: 10px;">
+    <h3> How it helps the user? </h3>
+    <p> 
+This application significantly enhances financial analysis by enabling interactive querying of financial data, which allows users to extract specific information efficiently.<br> It automates the calculation of key financial ratios such as profitability, liquidity, and solvency, facilitating quicker and more accurate financial assessments. <br>The integration of visualization tools aids in the clear representation of complex data, making it easier to interpret trends and anomalies. Overall, this system streamlines the analysis process, making it more accessible and insightful for financial analysts.</p>
 </div>
 
 CHECKOUT THE DOCS FOLDER FOR ALL IMAGE DEMOS
