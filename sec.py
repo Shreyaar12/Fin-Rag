@@ -2,8 +2,13 @@ from sec_api import QueryApi
 import pandas as pd
 import os
 import requests
+import os
+from dotenv import load_dotenv
 
-API_KEY = '53dd7d57fd9d62f68d231732991775a4d0c590c78fdf5e4a4d6faf69bea2a472'
+load_dotenv()
+
+
+API_KEY = os.getenv('API_KEY')
 PDF_GENERATOR_API = 'https://api.sec-api.io/filing-reader'
 
 queryApi = QueryApi(api_key=API_KEY)

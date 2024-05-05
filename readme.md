@@ -4,7 +4,7 @@
   <img src="./docs/Screenshot(707).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
   <img src="./docs/Screenshot(713).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
   <img src="./docs/Screenshot(714).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
-  <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
+  <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 15%; margin: 10px;">
 </div>
 CHECKOUT THE DOCS FOLDER FOR ALL IMAGE DEMOS
 
