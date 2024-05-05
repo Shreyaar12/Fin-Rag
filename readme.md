@@ -7,7 +7,7 @@
   <img src="./docs/Screenshot(713).png" alt="SEC Filing app demo" style="width: 40%; margin: 10px;">
   <img src="./docs/Screenshot(714).png" alt="SEC Filing app demo" style="width: 40%; margin: 10px;">
     <h3>Upload all filings documents</h3>
-  <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 10%; margin: 10px;">
+  <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 30%; margin: 10px;">
   <h3>Visuals generated from the processed data</h3>
     <img src="./docs/visual.PNG" alt="SEC Filing app demo" style="width: 50%; margin: 10px;">
     <h3> How it helps the user? </h3>
