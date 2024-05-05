@@ -5,7 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
-
+docs
+filings
+sec-edgar-filings
+.env
 # Distribution / packaging
 .Python
 build/
