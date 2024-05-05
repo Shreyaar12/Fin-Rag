@@ -3,6 +3,7 @@
 ![SEC Filing app demo](./docs/Screenshot (707).png)
 ![SEC Filing app demo](./docs/Screenshot (713).png)
 ![SEC Filing app demo](./docs/Screenshot (714).png)
+![SEC Filing app demo](./docs/docs.png)
 CHECKOUT THE DOCS FOLDER FOR ALL IMAGE DEMOS
 
 # FinRAG: SEC Filings Analyzer
