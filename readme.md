@@ -1,9 +1,11 @@
 # SEC Filings Chat App
 
-![SEC Filing app demo](./docs/Screenshot(707).png)
-![SEC Filing app demo](./docs/Screenshot(713).png)
-![SEC Filing app demo](./docs/Screenshot(714).png)
-![SEC Filing app demo](./docs/docs.png)
+<div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;">
+  <img src="./docs/Screenshot(707).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
+  <img src="./docs/Screenshot(713).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
+  <img src="./docs/Screenshot(714).png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
+  <img src="./docs/docs.png" alt="SEC Filing app demo" style="width: 45%; margin: 10px;">
+</div>
 CHECKOUT THE DOCS FOLDER FOR ALL IMAGE DEMOS
 
 # FinRAG: SEC Filings Analyzer
