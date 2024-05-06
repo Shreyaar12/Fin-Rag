@@ -16,6 +16,7 @@ This application significantly enhances financial analysis by enabling interacti
 </div>
 
 CHECKOUT THE DOCS FOLDER FOR ALL IMAGE DEMOS
+A short video on how this works is available here: https://www.youtube.com/watch?v=elBs5P_0zug
 
 # FinRAG: SEC Filings Analyzer
 
