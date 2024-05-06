@@ -73,18 +73,32 @@ To use the FinRAG app, execute the following steps:
  ```
    python sim.py
    ```
-1. Start the application by running `app.py` with Streamlit:
+3. Start the application by running `app.py` with Streamlit:
 
    ```
    streamlit run app.py
    ```
 
-2. The application will launch in your default web browser.
+4. The application will launch in your default web browser.
 
-3. Use the interface to upload SEC filings and input your queries about the financial data.
+5. Use the interface to upload SEC filings and input your queries about the financial data.
 
-4. The system will process your questions and provide answers directly related to the content of the SEC filings.
+6. The system will process your questions and provide answers directly related to the content of the SEC filings.
+7. Use the insight and run visual.py to generate the necessary graphical visualization
 
+## Technology Stack
+------------
+
+- **Python**
+- **Streamlit**
+- **LangChain**
+- **PyPDF2**
+- **FAISS (Facebook AI Similarity Search)**
+- **dotenv**
+- **OpenAI API**
+- **Matplotlib**
+
+  
 ## Contributing
 ------------
 FinRAG is intended for educational and professional use in financial analysis. While it is a fully functional tool, enhancements and suggestions are welcome to improve its capabilities.
